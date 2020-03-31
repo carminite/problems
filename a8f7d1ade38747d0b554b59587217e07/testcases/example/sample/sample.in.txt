@@ -1,0 +1,1 @@
+scan.nextInt().concat("COVID-19 is a real epidemic").length()

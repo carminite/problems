@@ -1,5 +1,5 @@
 Methods are used to alter the value of a data type (e.g. change the characters in a String) based on the parameters (the variable values) they are given. They take those parameters, process them, and either return a result or change the data structure it is associated with; they are basically input-output machines.
-In Java, only methods can be characterized by a set of parentheses () at the end which can contain values or stay empty. Methods can also be "stringed" together, where a variable which has a method attached to it (like variable1.concat(variable2)) can have another method pieced at the end to further process it (like variable1.concat(variable2).length()), creating a chain of methods.
+In Java, only methods can be characterized by a set of parentheses () at the end which can contain values or stay empty. Methods can also be "stringed" together, where a variable which has a method attached to it (like `variable1.concat(variable2)`) can have another method pieced at the end to further process it (like `variable1.concat(variable2).length()`), creating a chain of methods.
 Your job is to find, given a string `S`, the number of methods that have been "stringed" together.
 
 ### Input Specification

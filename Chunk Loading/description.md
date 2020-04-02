@@ -3,7 +3,7 @@ In his Introduction to Customer Service culminating project, [**carminite**](htt
 ### Input Specification
 The input will consist of one line with integers `X` and `Y`, `1 ≤ X, Y ≤ 200`, the map dimensions.
 The next `Y` rows will have a string of `X` characters each.
-The final row will have integers `A` and `B`, the 1-indexed coordinates of the chosen point on the map, and an integer `R`, `1 ≤ R ≤ X, Y`, the radius of the square of which chunks should be loaded (essentially a `2R+1` length square with (`A`, `B`) at the center).
+The final row will have integers `A` and `B`, the 1-indexed coordinates of the chosen point on the map, and an integer `R`, `0 ≤ R ≤ X, Y`, the radius of the square of which chunks should be loaded (essentially a `2R+1` length square with (`A`, `B`) at the center).
 
 ### Output Specification
 A visual representation of the loaded chunk region. Chunks outside the map are shown with character '.'.

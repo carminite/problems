@@ -1,10 +1,10 @@
 version: v1
 type: problem
-name: Methods
+name: Chunk Loading
 author:
 - carminite
 metadata:
-  points: 3
+  points: 4
   partial: True
   limit:
     time: 1 # in seconds
@@ -12,7 +12,7 @@ metadata:
   category:
   - Classics
   type:
-  - String Manipulation
+  - Game Mechanics
   description: description.md
 judge:
   grader:

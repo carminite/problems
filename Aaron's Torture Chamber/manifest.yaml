@@ -1,18 +1,18 @@
 version: v1
 type: problem
-name: Chunk Loading
+name: Admin Abuse
 author:
-- carminite
+- bchen2005
 metadata:
-  points: 4
-  partial: True
+  points: 10
+  partial: False
   limit:
     time: 1 # in seconds
     memory: 64 # in MB
   category:
-  - Classics
+  - Uncategorized
   type:
-  - Game Mechanics
+  - String Manipulation
   description: description.md
 judge:
   grader:

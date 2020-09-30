@@ -5,7 +5,7 @@ In the Discord server [**apricot**](https://discord.gg/RUfcCkj), verification ne
 
 Anyone who gets the answer right gets verified, and the rest are rejected.
 
-Your friend, ~~afraid of getting shanked~~ not being smart enough to do it, asks you to help him get verified in the form of a computer program.
+Your friend, ~~afraid of getting shanked and~~ not being smart enough to do it, asks you to help him get verified in the form of a computer program.
 
 ### Input Specification
 There will be two lines of input:

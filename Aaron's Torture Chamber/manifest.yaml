@@ -1,0 +1,21 @@
+version: v1
+type: problem
+name: Chunk Loading
+author:
+- carminite
+metadata:
+  points: 4
+  partial: True
+  limit:
+    time: 1 # in seconds
+    memory: 64 # in MB
+  category:
+  - Classics
+  type:
+  - Game Mechanics
+  description: description.md
+judge:
+  grader:
+    url: https://cdn.paullee.dev/pnoj/graders/standard.py
+  args:
+    testcase_dir: testcases

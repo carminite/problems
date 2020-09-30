@@ -1,29 +1,27 @@
-In his Introduction to Customer Service culminating project, [**carminite**](https://oj.paullee.dev/user/carminite) plans to use a revolutionary technique called "Chunk Loading" where only items in a region around a point is shown on a screen. He talks of saving computing power and creating less volatile games with this idea and, because he's actually *pretty* dumb, asks you to implement this idea. 
+In the Discord server [**apricot**](https://discord.gg/RUfcCkj), verification needs to happen for every single user to prevent any imposters from entering. Since no one really knows how to quickly verify everyone, the admin have set up a process: they send a string of ~N~ characters to each user, and have them figure out what's the lexicographically least and greatest substring with the following conditions:
+* The substrings must start with a vowel.
+* The substrings must end with a consonant.
+* Anyone who considers `y` to be a vowel gets shanked.
+
+Anyone who gets the answer right gets verified, and the rest are rejected.
+
+Your friend, ~~afraid of getting shanked~~ not being smart enough to do it, asks you to help him get verified in the form of a computer program.
 
 ### Input Specification
-The input will consist of one line with integers `X` and `Y`, `1 ≤ X, Y ≤ 20`, the map dimensions.
-The next `Y` rows will have a string of `X` characters each.
-The final row will have integers `A` and `B`, the 1-indexed coordinates of the chosen point on the map, and an integer `R`, `0 ≤ R ≤ X, Y`, the radius of the square of which chunks should be loaded (essentially a `2R+1` length square with (`A`, `B`) at the center).
+There will be two lines of input:
+The first line will have an integer ~N~. The second will have a string of length ~N~.
 
 ### Output Specification
-A visual representation of the loaded chunk region. Chunks outside the map are shown with character '.'.
+Print the lexicographically least substring on the first line, and the lexicographically greatest substring on the second.
 
 ### Sample Input
 ```
-5 5
-asdfh
-qewru
-ashsd
-qeuye
-awery
-2 2 2
+7
+apricot
 ```
 
 ### Sample Output
 ```
-.....
-.asdf
-.qewr
-.ashs
-.qeuy
+ap
+ot
 ```
